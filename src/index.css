@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+.user-card {
+  padding: 10px;
+  border: 1px solid #ddd;   
+}
+img {
+  width: 100%; 
+  border-radius: 100%;
+}
+  
+
+.button-group {
+  display: flex;
+  gap: 20px; 
+}
+
+.btn {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.delete {
+  background-color: red;
+}
+
+
